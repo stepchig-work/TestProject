@@ -1,4 +1,6 @@
+using Newtonsoft.Json;
 using System.Net;
+using TestProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,9 +17,16 @@ if (app.Environment.IsDevelopment())
 }
 
 
+app.MapGet("/", () =>
+{
+	var returnStatus = new ReturnStatusModel() { Status = "Ok" };
+	return JsonConvert.SerializeObject(returnStatus); ;
+});
+
 app.MapGet("/healthcheck", () =>
 {
-	return HttpStatusCode.OK;
+	var returnStatus = new ReturnStatusModel() { Status = "Ok" };
+	return JsonConvert.SerializeObject(returnStatus); ;
 });
 
 app.Run();
