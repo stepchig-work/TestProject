@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    },
+    {
+      "id": 1,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    },
+    {
+      "id": 2,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    },
+    {
+      "id": 3,
+      "userName": "1",
+      "firstName": "2",
+      "lastName": "3",
+      "email": "4",
+      "phone": "5"
+    },
+    {
+      "id": 4,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    },
+    {
+      "id": 5,
+      "userName": "1",
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1",
+      "phone": "1"
+    },
+    {
+      "id": 6,
+      "userName": "2",
+      "firstName": "2",
+      "lastName": "2",
+      "email": "2",
+      "phone": "2"
+    },
+    {
+      "id": 7,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    },
+    {
+      "id": 8,
+      "userName": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string"
+    }
+  ]
+}
